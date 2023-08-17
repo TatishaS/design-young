@@ -1,0 +1,59 @@
+/* FONTS */
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Floripa';
+  font-style: normal;
+
+  font-display: swap;
+  src: url('../fonts/Floripa.woff2') format('woff2'),
+    url('../fonts/Floripa.woff') format('woff');
+}
+
+@tailwind utilities 
+
+  bg-greenwild {
+  background-color: turquoise;
+}
+
+/* RESET BROWSER STYLES */
+
+html {
+  height: 100%;
+
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+/* GLOBAL */
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 500;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
