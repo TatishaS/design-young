@@ -12,11 +12,7 @@
     url('../fonts/Floripa.woff') format('woff');
 }
 
-@tailwind utilities 
-
-  bg-greenwild {
-  background-color: turquoise;
-}
+@tailwind utilities;
 
 /* RESET BROWSER STYLES */
 
