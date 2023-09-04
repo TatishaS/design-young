@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Дизайн молодых</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              accent: '#801EE2',
+            },
+            fontFamily: {
+              monserrat: ['Montserrat', 'Arial', 'sans-serif'],
+              floripa: ['Floripa', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+
+    <script defer src="js/script.js"></script>
+  </head>
+  <body class="bg-black text-white montserrat min-h-screen">
+    <header class="hidden lg:block">
+      <div class="mx-auto lg:max-w-6xl lg:py-6 px-6 lg:px-1">
+        <div class="flex flex-col lg:flex-row justify-between items-center">
+          <a href="#">
+            <img src="./images/logo.svg" alt="Лого" class="" />
+          </a>
+          <button
+            class="font-semibold text-base/[1rem] bg-[#801EE2] px-12 py-3 rounded-[11px] min-w-[125px] hover:bg-opacity-60"
+          >
+            Кнопка
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div
+        class="mx-auto bg-[url('/images/hero-image.png')] bg-no-repeat bg-[left_top_30rem] lg:bg-[right_top_3rem]"
+      >
+        <div class="lg:max-w-6xl mt-32 lg:mt-24 px-6 lg:px-1 mx-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-6 gap-8">
+            <div
+              class="lg:col-span-2 row-span-1 bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] cursor-pointer min-h-[102px] transition duration-300 hover:scale-105"
+            >
+              <a href="#" class="flex flex-col space-between h-full">
+                <h3 class="font-floripa text-[25px] leading-none mb-1">1920</h3>
+                <p class="text-[10px] font-semibold">Общее кол-во заявок</p>
+              </a>
+            </div>
+            <ul class="contents">
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full">
+                  <div>
+                    <h3 class="font-floripa text-[25px] leading-none mb-1">
+                      1920
+                    </h3>
+                    <p class="text-[10px] font-semibold">Заявки от ВШЭ</p>
+                  </div>
+                </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full">
+                  <div>
+                    <h3 class="font-floripa text-[25px] leading-none mb-1">
+                      1920
+                    </h3>
+                    <p class="text-[10px] font-semibold">Заявки от СПбГХПА</p>
+                  </div>
+                </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full">
+                  <div>
+                    <h3 class="font-floripa text-[25px] leading-none mb-1">
+                      1920
+                    </h3>
+                    <p class="text-[10px] font-semibold">Заявки от СПбГУПТД</p>
+                  </div>
+                </a>
+              </li>
+
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full">
+                  <div>
+                    <h3 class="font-floripa text-[25px] leading-none mb-1">
+                      1920
+                    </h3>
+                    <p class="text-[10px] font-semibold">Заявки от СПбПУ</p>
+                  </div>
+                </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full">
+                  <div>
+                    <h3 class="font-floripa text-[25px] leading-none mb-1">
+                      1920
+                    </h3>
+                    <p class="text-[10px] font-semibold">
+                      Название номинации 1
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full">
+                  <div>
+                    <h3 class="font-floripa text-[25px] leading-none mb-1">
+                      1920
+                    </h3>
+                    <p class="text-[10px] font-semibold">
+                      Название номинации 1
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+              <li
+                class="bg-[#801EE2] rounded-[11px] py-[30px] px-[16px] min-h-[102px] transition duration-300 hover:scale-105"
+              >
+                <a href="#" class="flex flex-col space-between h-full"> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container mx-auto"></div>
+    </footer>
+  </body>
+</html>
